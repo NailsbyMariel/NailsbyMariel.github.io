@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nails by Mariel</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="easy.css">
+    <link rel="stylesheet" href="slick.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="Images/fave_icon.png" type="image/x-icon">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Start site wrapper -->
+    <div class="site-wrapper">
+        <div class="header-index">
+            <!-- ====== 1.1. Header section ====== -->
+            <header>
+                <nav class="container navbar">
+                    <div class="container-nav flex">
+                        <!-- site logo -->
+                        <a class="navbar-logo" href="/"><img src="logo.png" alt="logo" width="70"></a>
+                        <button class="navbar-toggler" onclick="" type="button">
+                            <span class="fa-solid fa-bars"></span>
+                        </button>
+                        <!-- menus -->
+                        <ul class="navbar-nav flex">
+
+                            <li><a class="nav-link" href="#about">About Us </a></li>
+                            <li><a class="nav-link" href="#book">Book Now </a></li>
+                            <li><a class="nav-link" href="#prices">Prices & Services</a></li>
+                            <li><a class="nav-link" href="#gallery">Gallery</a></li>
+                            <li><a class="nav-link" href="#faq">FAQ</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="flex nav-right">
+
+                        <!-- header buttons -->
+                        <!-- <i onclick="open_search_bar()" class="fa-solid fa-magnifying-glass"></i>
+                        <i onclick="open_right_side()" class="fa-solid fa-bars"></i>
+                    </div>
+                </nav> -->
+                        <!-- Sidebar -->
+                        <aside id="mySidepanel" class="sidepanel">
+                            <div class="sidebar flex">
+                                <a href=""><img src="Images/heallogo.png" alt="logo"></a>
+                                <button class="closebtn btn_hover1" onclick="closeNav()"><i
+                                        class="fa-solid fa-xmark"></i></button>
+                            </div>
+                            <div>
+                                <!-- side menus -->
+                                <ul>
+                                    <li><a class="nav-link active" href="index.html">About</a></li>
+                                    <li><a class="nav-link" href="about.html">Learn</a></li>
+                                    <li><a class="nav-link" href="contact.html">Book</a></li>
+                                </ul>
+                            </div>
+                            </li>
+                            </ul>
+                    </div>
+                    </aside>
+                    <!-- searchbar -->
+                    <div id="search-bar">
+                        <div class="btn_hover1" onclick="close_search_bar()"><i class="fa-solid fa-xmark"></i></div>
+                        <form method="search" action="#">
+                            <input type="search" required placeholder="Search...">
+                            <button type="submit" class="btn_hover1">Search</button>
+                        </form>
+                    </div>
+
+                    <!-- Right Sidebar -->
+                    <section class="header-right-sidebar" id="right_side">
+                        <div class="flex flex-sb">
+                            <a href="/"><img src="Images/heallogo.png" alt="logo"></a>
+                            <button class="close_right_sidebar fa-solid fa-xmark" onclick="close_right_sade()">
+                            </button>
+                        </div>
+                        <p> Mariel's nail studio is a comprehensive platform that allows clients to book appointments
+                            and get scheduling updates in a timely manner. This is a local business and the platform was
+                            made by a team of Cornell Students.
+                        </p>
+                        <a href="/about.html" class="btn_hover1">Discover More</a>
+                        <hr>
+                        <h4>Connected details:</h4>
+                        <ul class="flex">
+                            <li>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#">@nailsby_mariel </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa-sharp fa-regular fa-clock"></i></a>
+                                <a href="#">Available by appointment </a>
+                            </li>
+                        </ul>
+                    </section>
+            </header>
+            <!-- ====== End of 1.1. Header section ====== -->
+
+            <!-- ====== 1.2. hero section ====== -->
+            <section id="home" class="hero">
+                <div class="container" data-aos="zoom-in">
+                    <div>
+                        <div class="hero-social-icon flex">
+
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                            <hr class="d-md-block d-sm-none d-none">
+                        </div>
+                        <div class="center-data">
+                            <h1>Nails by Mariel &nbsp;</h1>
+
+                            <div class="center-btn flex">
+                                <a href="#book" class="btn_hover1">Book Now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ====== End of 1.2. hero section ====== -->
+        </div>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-data flex-sb">
+                    <div class="w-50" data-aos="fade-up">
+                        <div class="flex about-title">
+                            <hr>
+
+                        </div>
+                        <h2>ABOUT ME
+                        </h2>
+                        <p>&nbsp; I’m Mariel Gonzalez! I’m in CALS at Cornell University, originally from NYC. I love being creative in everything I do, whether it’s school, projects, or just messing around with new ideas. Music is my biggest obsession—I’m always listening to something, making playlists, or deep-diving into my favorite artists. Basically, if it involves creativity and being adventurous, I’m all in!
+                            <br>
+                            <br>
+                            I created this business to be more than just a place to get your nails done—I wanted it to be a space where anyone can feel safe to sit, talk, be silent, or just take a break from everything. College life can be hectic, and I know how important it is to have affordable self-care, so I made sure my services are accessible to everyone. Getting your nails done should be fun, creative, and stress-free. Nothing makes my day more than seeing someone’s whole vibe change after a fresh set—it’s all about feeling good, confident, and happy!
+                            <br>
+
+                        </p>
+                        <div class="flex gap-1 mt-15">
+                            <i class="fa-solid fa-check"></i>
+                            <h5>Appointment by scheduling service only.
+                            </h5>
+                        </div>
+                        <div class="flex gap-1 mt-15">
+                            <i class="fa-solid fa-check"></i>
+                            <h5>Feel free to reach out through instagram anytime.</h5>
+                        </div>
+                        <div class="flex gap-2 mt-30">
+                            <a href="#book" class="btn_hover1">Book Now!</a>
+                        </div>
+                    </div>
+                    <div class="about-imgs flex flex-center w-50" data-aos="fade-down">
+                        <div>
+                            <figure>
+                                <img src="Headshot.jpg" alt="img">
+                            </figure>
+                        </div>
+                        <div class="about-hr flex gap-1">
+                            <hr>
+                            <h6>Who we are</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ====== 1.4a. card section ====== -->
+        <section class="feature">
+            <div class="container">
+                <div class="flex">
+                    <div class="header-card" data-aos="fade-down">
+                        <div>
+                            <!-- <figure><img src="Images/icon/date (1).png" class="feature-img1" alt="feature"></figure> -->
+                            <h4>Variety of Designs&nbsp;</h4>
+                            <p>We offer a variety of nail painting services tailored to meet the diverse needs of our
+                                clients. From simple manicures to intricate nail art designs, our talented team is
+                                equipped to bring your nail dreams to life. We use high-quality, non-toxic polishes and
+                                tools to ensure a safe and enjoyable experience for everyone. &nbsp;</p>
+
+
+                        </div>
+                    </div>
+                    <div class="header-card" data-aos="fade-down">
+                        <div>
+                            <!-- <figure><img src="Images/icon/fast-delivery (1).png" alt="feature"></figure> -->
+                            <h4>Affordable prices&nbsp;</h4>
+                            <p>Our services are affordable, making it easy for students and community members to indulge
+                                in a little pampering without breaking the bank. Additionally, we host themed nail
+                                painting events and workshops, allowing participants to learn new techniques and explore
+                                their creativity in a supportive environment.&nbsp;</p>
+                        </div>
+                    </div>
+                    <div class="header-card" data-aos="fade-down">
+                        <div>
+                            <!-- <figure><img src="Images/icon/organic.png" alt="feature"></figure> -->
+                            <h4>student run&nbsp;</h4>
+                            <p>Supporting our organization means investing in the personal growth and well-being of
+                                students in our community. By choosing our nail services, you contribute to a
+                                student-led initiative that helps us sustain our operations, allowing us to provide
+                                affordable services and provide for our clients. &nbsp;</p>
+                        </div>
+                    </div>
+                    <div class="header-card" data-aos="fade-down">
+                        <div>
+                            <!-- <figure><img src="Images/icon/order.png" alt="feature"></figure> -->
+                            <h4>join the community &nbsp;</h4>
+                            <p>We invite you to be a part of our journey by supporting our nail painting organization.
+                                Whether you’re looking for a fun way to express your style, a unique activity to enjoy
+                                with friends, or an opportunity to contribute to a meaningful cause, we have something
+                                for you. &nbsp;</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== End of 1.4. About us section ====== -->
+
+        <!-- ====== 1.5. Services section ====== -->
+        <section id="book" class="service">
+            <div class="service-1">
+                <div class="container">
+                    <div class="service-data" data-aos="fade-down">
+                        <div class="w-100">
+                            <div class="flex gap-1">
+
+                            </div>
+                            <br>
+                            <br>
+                            <h2 class="mt-15 text-center" style="color: black;">BOOK AN APPOINTMENT TODAY!</h2>
+
+                            <!-- Calendly inline widget begin -->
+                            <div class="calendly-inline-widget text-center" data-url="https://calendly.com/mng47-cornell/nail-appointment" style="min-width:320px;height:700px;"></div>
+
+                            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"
+                                async></script>
+                            <!-- Calendly inline widget end -->
+                            <!--<figure><img src="Images/icon/man_10428594.png" alt=""></figure>-->
+
+                            <!--<figure><img src="Images/icon/slider3.png" alt="slider3"></figure>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- ====== End of 1.5. Services section ====== -->
+        <!-- ====== 1.6. Experience section ====== -->
+        <section id="prices" class="experience">
+            <div class="container">
+                <div class="flex-wrap exp-center" data-aos="fade-up">
+                    <div class="w-66">
+                        <div class="flex gap-1">
+                            <hr class="experience-hr1 m-0">
+                        </div>
+                        <h2>PRICES & SERVICES</h2>
+                        <p class="mt-1">
+                        </p>
+                    </div>
+                    <hr>
+                </div>
+                <div class="flex flex-sb">
+                    <div class="w-50 p-relative flex flex-center" data-aos="zoom-in">
+                        <div class="experience_mask">
+                            <figure><img src="about.jpeg" alt="img"></figure>
+                        </div>
+                        <div class="experience-hr flex gap-1">
+                            <hr>
+                            <h6>Prices & Services</h6>
+                        </div>
+                    </div>
+                    <div class="w-50 flex flex-col gap-2 mt-1">
+                        <div class="flex gap-1 ex-card" data-aos="fade-up">
+                            <div class="flex flex-center">
+                                <h3>Prices</h3>
+                            </div>
+                            <div>
+                                <h4>Services</h4>
+                                <h5>Removal of Previous Set: $5</h5>
+                                <h5>Gel (Natural Nails): $25</h5>
+                                <h5>Builder Gel: $35 (Refill $25)</h5>
+                                <h5>Gel X: $40 (Refill $30)</h5>
+
+                            </div>
+                        </div>
+
+                        <div class="w-50 flex flex-col gap-2 mt-1">
+                            <div class="flex gap-1 ex-card" data-aos="fade-up">
+                                <div class="flex flex-center">
+                                    <h3>Prices</h3>
+                                </div>
+                                <div>
+                                    <h4>Add-On Prices (Full-Set)</h4>
+                                    <h5>French: $5</h5>
+                                    <h5>Chrome: $6</h5>
+                                    <h5>Rhinestones: $6</h5>
+                                    <h5>Nail-art: $4 upwards</h5>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-1 ex-card" data-aos="fade-up">
+                                <div class="flex flex-center">
+                                    <h3>Prices</h3>
+                                </div>
+                                <div>
+                                    <h4>Add-On Prices (Per nail)</h4>
+                                    <h5>Blooming gel: $3</h5>
+                                    <h5>3-D nail art: $3</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- ====== End of 1.6. Experience section ====== -->
+
+        <!-- ====== 1.7. gallary section ====== -->
+        <section id="gallery" class="portfolio">
+            <div class="gallary">
+                <div class="container" data-aos="fade-up">
+                    <div class="flex-wrap ga-center" data-aos="fade-up">
+                        <div class="w-66">
+                            <div class="flex gap-1">
+                                <hr class="gallary-hr1 m-0">
+                            </div>
+                            <br>
+                            <br>
+                            <h2>GALLERY</h2>
+                            <p class="mt-1">
+                            </p>
+                        </div>
+                        <hr>
+                    </div>
+                    <!-- Tab links -->
+                    <div class="tab mb-15">
+                       
+
+                        <!-- Tab content -->
+                        <div id="all" class="tabcontent" style="display: block;">
+                            <div class="flex flex-center">
+                                <div class="flex w-100">
+                                    <div class="w-33">
+                                        <figure><img src="nails/image1.jpg" alt="img1"></figure>
+                                    </div>
+                                    <div class="w-33">
+                                        <figure><img src="nails/image2.jpg">
+                                        </figure>
+                                    </div>
+                                    <div class="w-33">
+                                        <figure><img src="nails/image3.jpg" alt="img"></figure>
+                                    </div>
+                                    <div class="w-66">
+                                        <figure><img src="nails/image4.jpg" alt="img"></figure>
+                                    </div>
+                                    <div class="w-33">
+                                        <figure><img src="nails/image5.jpg" alt="img"></figure>
+                                    </div>
+                                    <div class="w-33">
+                                        <figure><img src="nails/image6.jpg" alt="sm_img"></figure>
+                                        <figure><img src="nails/image7.jpg" alt="sm_img"></figure>
+                                    </div>
+                                    <div class="w-66">
+                                        <figure><img src="nails/image8.png" alt="img"></figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="design" class="tabcontent">
+                            <div class="flex flex-center">
+                                <div class="flex w-100">
+                                    <div class="w-33">
+                                        <figure><img src="Images/Main Website/design.jfif" alt="img"></figure>
+                                    </div>
+                                    <div class="w-33">
+                                        <figure><img src="Images/Main Website/design 2.jpg" alt="img"></figure>
+                                    </div>
+                                    <div class="w-33">
+                                        <figure><img src="Images/Main Website/design 3.png" alt="img"></figure>
+                                    </div>
+                                    <div class="w-33">
+                                        <figure><img src="Images/Main Website/design 4.webp" alt="img"></figure>
+                                    </div>
+                                    <div class="w-33">
+                                        <figure><img src="Images/Main Website/design 5.jfif" alt="img"></figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="development" class="tabcontent">
+                            <div class="flex flex-center">
+                                <div class="flex w-100">
+                                    <div class="w-33">
+                                        <figure><img src="Images/Main Website/devlopment.webp" alt="img"></figure>
+                                    </div>
+                                    <div class="w-33">
+                                        <figure><img src="Images/Main Website/devlopment 2.png" alt="img"></figure>
+                                    </div>
+                                    <div class="w-33">
+                                        <figure><img src="Images/Main Website/devlopment 3.gif" alt="img"></figure>
+                                    </div>
+                                    <div class="w-33">
+                                        <figure><img src="Images/Main Website/devlopment 4.jfif" alt="img"></figure>
+                                    </div>
+                                    <div class="w-33">
+                                        <figure><img src="Images/Main Website/devlopment 5.jpg" alt="img"></figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="branding" class="tabcontent">
+                            <div class="flex flex-center">
+                                <div class="flex w-100">
+                                    <div class="w-33">
+                                        <figure><img
+                                                src="Images/Main Website/hospital-animation-ezgif.com-video-to-gif-converter.gif"
+                                                alt="img"></figure>
+                                    </div>
+                                    <div class="w-66">
+                                        <figure><img src="Images/Main Website/branding 2.png" alt="img"></figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="markiting" class="tabcontent">
+                            <div class="flex flex-center">
+                                <div class="flex w-100">
+                                    <div class="w-33">
+                                        <figure><img src="Images/Main Website/marketing 3.jfif" alt="img"></figure>
+                                    </div>
+                                    <div class="w-66">
+                                        <figure><img src="Images/Main Website/marketing 6.gif" alt="img"></figure>
+                                    </div>
+                                    <div class="w-66">
+                                        <figure><img src="Images/Main Website/marketing 2.png" alt="img"></figure>
+                                    </div>
+                                    <div class="w-33">
+                                        <figure><img src="Images/Main Website/marketing 4.png" alt="img"></figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="seo" class="tabcontent">
+                            <div class="flex flex-center">
+                                <div class="flex w-100">
+                                    <div class="w-33">
+                                        <figure><img src="Images/Main Website/seo.png" alt="img"></figure>
+                                    </div>
+                                    <div class="w-33">
+                                        <figure><img src="Images/Main Website/seo 2.jfif" alt="img"></figure>
+                                    </div>
+                                    <div class="w-33">
+                                        <figure><img src="Images/Main Website/seo 3.jfif" alt="img"></figure>
+                                    </div>
+                                    <div class="w-66">
+                                        <figure><img src="Images/Main Website/seo 4.png" alt="img"></figure>
+                                    </div>
+                                    <div class="w-33">
+                                        <figure><img src="Images/Main Website/seo 5.png" alt="img"></figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallary-hr flex gap-1 flex-end mt-15">
+                            <h6>GALLERY</h6>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- ====== End of 1.7. gallary section ====== -->
+
+
+
+        <!-- ====== 1.9. FAQ section ====== -->
+        <section id="faq" class="faq p-relative">
+            <span> </span>
+            <div class="container">
+                <div class="flex flex-wrap">
+                    <div class="w-50 text-center" data-aos="fade-up">
+                        <div class="flex gap-2 ">
+                            <hr class="faq-hr1">
+                            <h5>FAQ</h5>
+                        </div>
+                        <h2 class="mt-1">Frequently Asked Questions</h2>
+                        <p class="mt-1">
+                        </p>
+                    </div>
+                    <div class="w-50 mt-15">
+                        <div class="accordion flex flex-col gap-2" id="accordionExample" data-aos="fade-down">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button flex-sb" type="button">
+                                        WHAT KIND OF SERVICES DO WE
+                                        PROVIDE?
+                                        <img src="plus.png" alt="img">
+                                    </button>
+                                </h2>
+                                <div class="accordion-collapse">
+                                    <p> We do provide 3 types of full-set services: Gel (natural nails), Builder gel
+                                        (natural nails), and Gel X which consists of any size of nails. Additionally, we
+                                        also do add-ons such as French nails, Chrome nails, Rhinestones, 3-d nail art,
+                                        blooming gel, and nail-art. We also do removal of previous sets. For prices,
+                                        please refer to the Prices & Services section.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button flex-sb" type="button">
+                                        WHERE DOES IT TAKE PLACE?
+                                        <img src="plus.png" alt="img">
+
+                                    </button>
+                                </h2>
+                                <div class="accordion-collapse">
+                                    <p>Nails by Mariel is a student run business and takes place in a private location
+                                        which is revealed after you book an appointment with us!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button flex-sb" type="button">
+                                        WHERE CAN I FIND PAST CLIENT DESIGNS?
+                                        <img src="plus.png" alt="img">
+
+                                    </button>
+                                </h2>
+                                <div class="accordion-collapse">
+                                    <p>Check our instagram page for the past designs! We are willing to experiment and
+                                        adapt to any of your requests!
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button flex-sb" type="button">
+                                        HOW CAN I BOOK AN APPOINTMENT OR ASK FOR SPECIFIC NAIL REQUESTS?
+                                        <img src="plus.png" alt="img">
+                                    </button>
+                                </h2>
+                                <div class="accordion-collapse">
+                                    <p>Refer to the booking section of our website for more information! We are always
+                                        looking for feedback and new designs, feel free to contact us at @nailsby_mariel
+                                        on instagram!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ====== End of 1.9. FAQ section ====== -->
+
+        <!-- ====== 1.10. Footer section ====== -->
+        <footer>
+
+            <div class="footer-menu">
+                <div class="container">
+                    <div class="footer-hr flex flex-col">
+
+                        <h3>JOIN OUR MAILING LIST</h3>
+                        <br>
+                        <br>
+                    </div>
+                    <form id="footer-form" class="flex flex-sb gap-2" data-aos="zoom-in" data-aos-delay="400">
+                        <div id="footer-message"></div>
+                        <input type="email" required placeholder="Enter your mail">
+                        <button type="submit" class="btn_hover1">Get Started</button>
+                    </form>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="container">
+                    <div class="flex flex-wrap justify-center footer-center gap-10">
+                        <!-- Nails by Mariel -->
+                        <div class="footer-section text-center">
+                            <h4>Nails by Mariel</h4>
+                            <ul class="flex flex-col gap-2 text-center">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#book">Book Now</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Quick Links -->
+                        <div class="footer-section">
+                            <h4>Quick Links</h4>
+                            <ul class="flex flex-col gap-2 text-center">
+                                <li><a href="#prices">Prices & Services</a></li>
+                                <li><a href="#gallery">Gallery</a></li>
+                                <li><a href="#faq">FAQs</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Questions -->
+                        <div class="footer-section text-center">
+                            <h4>Questions?</h4>
+                            <ul class="flex flex-col gap-2">
+                                <li>
+                                    <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#" class="text-lowercase">@nailsby_mariel</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container flex flex-sb gap-2 flex-wrap">
+                    <h6>Copyright © 2024 Nails by Mariel By CTC </h6>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- end site wrapper -->
+
+
+    <!-- button back to top -->
+    <button onclick="scrollToTop()" id="backToTopBtn" class="btn_hover2"><i
+            class="fa-solid fa-arrow-turn-up"></i></button>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 1250,
+            once: true,
+        });
+    </script>
+
+    <!-- jquery js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+        integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- jquery min js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- slick carousel min js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        integrity="sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A=" crossorigin="anonymous"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
